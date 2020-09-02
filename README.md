@@ -6,10 +6,10 @@
 
 Part of the learning ruby curriculum, we were tasked to create two array sorting functions. The functions are the
 implementation of the bubble sort algorithm. The **bubble_sort** function accepts an array of integers and sorts them
-in an ascending order of magnitude. The second function, the **bubble_sort_by** requires that we make use of ruby block
+in an ascending order of magnitude. The second function, the **bubble_sort_by** requires that we make use of ruby's block
 and yield feature to pass in a predicate to the sort function.
 
-[GIF](./images/gif.gif)
+![GIF](./images/gif.gif)
 
 ## Live Demo
 [Quick live demo](https://repl.it/repls/RunnyCompetitivePortablesoftware#main.rb)
