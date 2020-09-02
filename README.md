@@ -30,7 +30,7 @@ Ruby runtime
 1) [Download](Clone the repository to your machine)
 
 ```sh
-$ git clone https://github.com/belsman/Building-with-Responsive-Design/tree/develop
+$ git clone https://github.com/RICKCOYL/bubble-sort/
 ```
 
 2) Navigate to the project folder and execute "ruby bubble_sort.rb".
