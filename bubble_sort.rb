@@ -1,9 +1,8 @@
 def bubble_sort(arr)
-  indices = arr.length - 1
-  for _ in 0..indices
-    for j in 0..indices - 1
-      if arr[j] > arr[j + 1]
-        arr[j], arr[j + 1] = arr[j + 1], arr[j]
+  arr.each_index do |_|
+    arr.each_index do |i|
+      if i < arr.length-1 && arr[i] > arr[i + 1]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
       end
     end
   end
