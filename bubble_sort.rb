@@ -1,6 +1,6 @@
 def bubble_sort(arr)
   indices = arr.length - 1
-  for _ in 0..indices
+  for i in 0..indices
     for j in 0..indices - 1
       if arr[j] > arr[j + 1]
         arr[j], arr[j + 1] = arr[j + 1], arr[j]
