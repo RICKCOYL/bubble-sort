@@ -18,8 +18,6 @@ def bubble_sort_by(arr)
   arr
 end
 
-result = bubble_sort_by(['hi', 'hello', 'hey', 'hand', 'house']) do |left, right|
-  left.length - right.length
-end
+result = bubble_sort_by(['hi', 'hello', 'hey', 'hand', 'house']) { |left, right| left.length - right.length }
 
 p result
