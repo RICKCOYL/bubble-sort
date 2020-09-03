@@ -7,7 +7,7 @@ def bubble_sort(arr)
         swapped = true
       end
     end
-    break if !swapped;
+    break unless swapped
   end
   arr
 end
@@ -16,14 +16,15 @@ def bubble_sort_by(arr)
   arr.each_index do |_|
     swapped = false
     arr.each_index do |i|
-      if i < arr.length - 1
-        if yield(arr[i], arr[i + 1]).positive?
-          arr[i], arr[i + 1] = arr[i + 1], arr[i]
-          swapped = true
-        end
+      next if i == arr.length - 1
+      if yield(arr[i], arr[i + 1]).positive?
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        swapped = true
       end
     end
-    break if !swapped;
+    break unless swapped
   end
   arr
 end
+
+p bubble_sort([3, 2, 9, 6, 5])
