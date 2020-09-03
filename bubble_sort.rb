@@ -7,7 +7,7 @@ def bubble_sort(arr)
         swapped = true
       end
     end
-    if !swapped then break end;
+    break if !swapped;
   end
   arr
 end
@@ -23,7 +23,7 @@ def bubble_sort_by(arr)
         end
       end
     end
-    if !swapped then break end;
+    break if !swapped;
   end
   arr
 end
