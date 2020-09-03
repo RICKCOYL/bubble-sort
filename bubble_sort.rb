@@ -17,6 +17,7 @@ def bubble_sort_by(arr)
     swapped = false
     arr.each_index do |i|
       next if i == arr.length - 1
+
       if yield(arr[i], arr[i + 1]).positive?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
         swapped = true
@@ -26,5 +27,3 @@ def bubble_sort_by(arr)
   end
   arr
 end
-
-p bubble_sort([3, 2, 9, 6, 5])
