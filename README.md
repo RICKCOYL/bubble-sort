@@ -52,7 +52,7 @@ Try sorting your collections of numbers.
 
 - Github: [@RICKCOYL](https://github.com/RICKCOYL)
 - Linkdin: [Rick Oburu](https://www.linkedin.com/in/rick-oburu-8627591a4/)
-- Twitter: [@Rickcoyl]https://twitter.com/Rickcoyl
+- Twitter: [@Rickcoyl](https://twitter.com/Rickcoyl)
 
 
 
